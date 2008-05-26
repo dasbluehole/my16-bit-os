@@ -1,0 +1,22 @@
+Publics by module
+
+IO      	size = 104
+	_inportb                          _inportb_p
+	_outportb                         _outportb_p
+	_outportw                         _outportw_p
+
+VIDEO   	size = 1572
+	_VIDEO_MEMORY                     _beep
+	_c_x                              _c_y
+	_cli                              _cls
+	_get_flags                        _get_x_pos
+	_get_y_pos                        _gotoxy
+	_kprint                           _pos
+	_printat                          _printk
+	_printlong                        _put_cursor
+	_readkey                          _set_flags
+	_sound                            _sound_delay
+	_sti                            
+
+VSPRINTF	size = 1267
+	_sprintf                          _vsprintf
